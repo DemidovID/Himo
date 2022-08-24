@@ -517,6 +517,7 @@ a {
 }
 
 .header__content {
+	margin-bottom: 60px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -630,4 +631,38 @@ a {
 	text-transform: lowercase;
 	color: #131313;
 	margin: auto 0;
+}
+
+.bike-info__pic {
+	transition: all 0.2s;
+}
+
+.bike-info__pic:hover {
+	transform: scale(1.05);
+}
+
+.bike-info__content {
+	margin-bottom: 150px;
+	display: flex;
+}
+
+.bike-info__right {
+	margin-left: 60px;
+}
+
+.bike-info__title {
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+	color: #131313;
+}
+
+.bike-info__subtitle {
+	margin-bottom: 75px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #131313;
 }
